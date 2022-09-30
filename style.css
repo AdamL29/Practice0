@@ -1,0 +1,24 @@
+html{
+    background-color: white;
+}
+
+header{
+    display: grid;
+    background-color: aqua;
+}
+
+header > img{
+    height: fit-content;
+}
+
+header > a{
+    display: inline;
+    justify-self: end;
+}
+
+
+@media only screen and {min-width: 500px;
+    header{
+        font-size: 50px;
+    }
+}
