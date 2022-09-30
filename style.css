@@ -2,23 +2,42 @@ html{
     background-color: white;
 }
 
-header{
+#pg1 > img{
     display: grid;
-    background-color: aqua;
+    grid-template-columns: repeat(auto-fill, minmax (200px, 1fr));
+    height: 40vh;
+    width: 100vw;
+
 }
 
-header > img{
-    height: fit-content;
+footer{
+    display: grid;
 }
 
-header > a{
-    display: inline;
+#intro{
+    display: grid;
+}
+
+
+#pg2{
+    display: grid;
+    background-color: #03b6eb;
+    max-height: 70px;
+    grid-template-columns: 400px, 1fr;
+}
+
+#pg2 > img{
+    height: 50px;
+}
+
+#pg2 > nav{
     justify-self: end;
+    align-self: center;
 }
 
 
 @media only screen and {min-width: 500px;
-    header{
+    #pg2{
         font-size: 50px;
     }
 }
